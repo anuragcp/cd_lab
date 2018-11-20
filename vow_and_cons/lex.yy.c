@@ -1762,14 +1762,12 @@ void yyfree (void * ptr )
 
 
 
-int yywrap(){
-    return 1;
-}
+
 
 int main(){
     char str[100];
     fptr = fopen("file","r");
-    yyaccept = fopen("file", "w");
+    yyin = fopen("file", "r");
     fscanf(fptr, "%s", str);
     yylex();
     printf("No. of vowels = %d\n", vcount);
