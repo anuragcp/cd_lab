@@ -1762,8 +1762,6 @@ void yyfree (void * ptr )
 
 
 
-
-
 int main(){
     char str[100];
     fptr = fopen("file","r");

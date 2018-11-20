@@ -9,8 +9,6 @@
 [a-zA-Z (^a|e|i|o|u|A|E|I|O|U)] {ccount++;}
 %%
 
-
-
 int main(){
     char str[100];
     fptr = fopen("file","r");
