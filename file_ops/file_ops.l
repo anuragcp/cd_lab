@@ -1,5 +1,6 @@
-int lcount=0, ccount=0, wcount=0
-
+%{
+    int lcount=0, ccount=0, wcount=0
+%}
 %%
 [\n]    {lcount++;}
 [a-zA-Z]    {ccount++;}
