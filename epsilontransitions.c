@@ -18,9 +18,9 @@ scanf("%s",final);
 printf("Enter the table values");
 for(i=0;i<n;i++)
 {
-for(j=0;j<3;j++)
+	for(j=0;j<3;j++)
 	{
-		printf("\nEnter number of states in [%d, %d] \t",i+1,j+1);
+		printf("\nEnter number of states %d in with %d transition :] \t",i+1,j);
 		scanf("%d",&size[i][j]);
 		if(size[i][j]>0)
 		{
